@@ -40,6 +40,8 @@ android {
 dependencies {
 
     compileOnly files("../libs/theme-release.aar")
+    debugImplementation files("../libs/theme-release.aar")
+    androidTestImplementation files("../libs/theme-release.aar")
 
 
     implementation platform('androidx.compose:compose-bom:2022.11.00')
